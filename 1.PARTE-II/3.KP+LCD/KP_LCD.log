@@ -1,0 +1,28 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -RA -GC -DL -O11111114 -fo8 -N"E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\000.452\0.KP+LCD\KP_LCD.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\000.452\0.KP+LCD\" -SP"W:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC18F452\0.CEV\B.KP+LCD\" -SP"W:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F887\B.KP+LCD\" -SP"E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\B.KP+LCD\" -SP"E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\E.KP+LCDALLINONE\" -SP"E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\E.KP+LCD2\" -IP"E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\E.KP+LCD2\" -IP"E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\E.KP+LCDALLINONE\" "MAIN.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_C.mcl" "__Lib_EEPROM.mcl" "__Lib_FLASH_RW.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_EthEnc24j600.mcl" "__Lib_TouchPanel.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'W:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC18F452\0.CEV\B.KP+LCD'	 
+warning: 0	1501	Specified search path does not exist: 'W:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F887\B.KP+LCD'	 
+warning: 0	1501	Specified search path does not exist: 'E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\E.KP+LCDALLINONE'	 
+warning: 0	1501	Specified search path does not exist: 'E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\E.KP+LCD2'	 
+warning: 0	1502	Specified include path does not exist: 'E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\E.KP+LCD2'	 
+warning: 0	1502	Specified include path does not exist: 'E:\8.PICMICRO\CODEEX\0.MICROGENIOS\PIC16F877A\E.KP+LCDALLINONE'	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	P16F877A.c
+diagnostics: 666	123	Compiled Successfully	P16F877A.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 123	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__Lib_MemManager.c
+warning: 34	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+diagnostics: 231	123	Compiled Successfully	__Lib_MemManager.c
+diagnostics: 0	122	Compilation Started	__Lib_GlcdFonts.c
+diagnostics: 1207	123	Compiled Successfully	__Lib_GlcdFonts.c
+diagnostics: 0	126	All files Preprocessed in 16 ms	 
+diagnostics: 0	122	Compilation Started	lcdmicrogenios.h
+diagnostics: 91	123	Compiled Successfully	MAIN.c
+diagnostics: 0	127	All files Compiled in 47 ms	 
+hint: 0	1144	Used RAM (bytes): 36 (10%)  Free RAM (bytes): 316 (90%)	Used RAM (bytes): 36 (10%)  Free RAM (bytes): 316 (90%)
+hint: 0	1144	Used ROM (program words): 649 (8%)  Free ROM (program words): 7543 (92%)	Used ROM (program words): 649 (8%)  Free ROM (program words): 7543 (92%)
+diagnostics: 0	125	Project Linked Successfully	KP_LCD.mcppi
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 171 ms	 
+diagnostics: 0	129	Project 'KP_LCD.mcppi' completed: 483 ms	 
+diagnostics: 0	103	Finished successfully: 14 out 2014, 14:27:41	KP_LCD.mcppi

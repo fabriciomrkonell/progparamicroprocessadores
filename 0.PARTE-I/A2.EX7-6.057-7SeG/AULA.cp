@@ -1,0 +1,36 @@
+#line 1 "C:/Users/ceviana.CATOLICASC/Desktop/6_MCUs/_LAB/CODE/A2.EX7/AULA.c"
+#line 26 "C:/Users/ceviana.CATOLICASC/Desktop/6_MCUs/_LAB/CODE/A2.EX7/AULA.c"
+void main() {
+ADCON1 = 0x06;
+CMCON = 7;
+
+TRISA = 0b00000000; PORTA = 0b00000000;
+TRISB = 0b00000000; PORTB = 0b00000000;
+TRISC = 0b00000000; PORTC = 0b00000000;
+TRISD = 0b00000000; PORTD = 0b00000000;
+TRISE = 0b00000000; PORTE = 0b00000000;
+
+ PORTD  = 0b00000001;
+ PORTA.RA2  = 0;
+ PORTA.RA3  = 0;
+ PORTA.RA4  = 0;
+ PORTA.RA5  = 0;
+
+do {
+ PORTA.RA2  = 1;
+ PORTD  = 0b11111101;
+Delay_ms(1);
+ PORTA.RA2  = 0;
+ PORTA.RA3  = 1;
+ PORTD  = 0b00111111;
+Delay_ms(1);
+ PORTA.RA3  = 0;
+ PORTA.RA4  = 1;
+ PORTD  = 0b01101101;
+Delay_ms(1);
+ PORTA.RA4  = 0;
+ PORTA.RA5  = 1;
+ PORTD  = 0b00000111;
+Delay_ms(1);
+ PORTA.RA5  = 0;
+} while (1);}
